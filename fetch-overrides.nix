@@ -34,6 +34,8 @@
     fennel-mode = "https://git.sr.ht/~technomancy/fennel-mode";
     # nixpkgs uses a release from nongnu ELPA.
     corfu-terminal = "https://codeberg.org/akib/emacs-corfu-terminal";
+
+    lsp-mode = "https://github.com/r3v2d0g/lsp-mode";
   };
 
   # Pins for packages not pinned by Doom and not in nixpkgs or emacs-overlay.
@@ -42,5 +44,7 @@
     sly-stepper = "da84e3bba8466c2290c2dc7c27d7f4c48c27b39e";
     # In emacsattic, so shouldn't change underneath us.
     ammonite-term-repl = "b552fe21977e005c1c460bf6607557e67241a6b6";
+
+    lsp-mode = "50641024054f213d87f435d3cc8e5d1db80f1f50";
   };
 }
